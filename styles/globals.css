@@ -1,0 +1,35 @@
+.@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Gradient Backgrounds */
+.bg-gradient {
+  background: linear-gradient(45deg, #6e7e7a, #b7c9c2);
+}
+
+/* Neon Effects */
+.neon {
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+/* Modern Design Utilities */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
